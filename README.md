@@ -5,6 +5,7 @@ A reusable, privacy-safe migration toolkit for moving Docker + VM workloads from
 - Language: English (this file)
 - Deutsch: [docs/README.de.md](docs/README.de.md)
 - Srpski: [docs/README.sr.md](docs/README.sr.md)
+- Product roadmap: [docs/ROADMAP.md](docs/ROADMAP.md)
 
 ## Why this project
 
@@ -15,6 +16,14 @@ Core goals:
 - Do not touch existing production containers on target server
 - Pause/resume anytime (unstable links supported)
 - Move data first, cut over later
+
+## App Hub direction
+
+This project is being prepared to become a full Unraid App Hub (Community Applications) app with:
+- live transfer dashboard
+- workflow buttons
+- complete SSH and port configuration in-app
+- migration safety checks and rollback-oriented cutover guidance
 
 ## Privacy and anonymization
 
